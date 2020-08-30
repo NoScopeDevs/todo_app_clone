@@ -73,8 +73,8 @@ class _InTheWorks extends StatelessWidget {
           ),
           Expanded(
             child: StaggeredGridView.countBuilder(
-              crossAxisCount: 4,
               itemCount: 8,
+              crossAxisCount: 4,
               itemBuilder: (BuildContext context, int index) {
                 return Container(
                   margin: const EdgeInsets.symmetric(
